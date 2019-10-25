@@ -1,4 +1,6 @@
 FROM pizzafactory0contorno/piatto:alpine as builder
+LABEL maintainer="Masaki Muranaka <monaka@pizzafactory.jp>"
+
 ARG REMIX_TAG=v0.7.5
 
 USER root
